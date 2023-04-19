@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap%22");
+
+.card{
+  background: url("../assets/bg.png");
+  background: visibility 10px;;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  height: 100vh;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-size: 1.2rem;
+  color: #404aff;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  color: #ffffff;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card__front {
+  text-align: center;
+  font-size: large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 60%;
+  justify-content: center;
+  border: 1px solid #ffffff4f;
+  /* background-color: #64646439; */
+  background: linear-gradient(75deg, #59595949 50%, #00000071 100%);
+  margin: 5%;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px rgba(149, 149, 149, 0.3));;
+}
+
+
+
+.card__form {
+  text-align: left !important;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  position: relative;
+  padding-left: 15%;
+  font-size: 18px !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card__button {
+  background-color: #408CFF;
+  border: #408CFF;
+
+  /* border: 0.5px solid rgb(151, 151, 151); */
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 1%;
+  /* margin-top: 30px; */
+  width: 40%;
+  color: white;
+  /* Aligning button to center
+  justify-content: center;
+  align-items: center;
+  margin-top: 5% !important;
+  margin: auto; */
+}
+
+.card__button:hover {
+  background-color: #ff4040;
+
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+}
+
+
+
+.card__inputemail {
+  background-color: rgba(191, 217, 255, 0);;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  height: 40px;
+  padding: 50 32px;
+  margin-top: 24px;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.card__inputemail:hover {
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.card__inputemail:focus {
+  border: 2px solid #dedede;
+}
+
+.card__inputemail::placeholder {
+  color: #ffffff72;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 10px !important;
+}
+
+.card__inputemail:focus::placeholder {
+  color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #408CFF;
+  }
+  .card__front {
+    
+    width: 100%;
+    
+  }
+  
+}
