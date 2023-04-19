@@ -54,7 +54,7 @@ export default function MediaCard(props) {
     }
     console.log(props.length, props.width, props.height);
     axios
-      .post("http://localhost:8080/furnitureData", apd)
+      .post("https://simply-interior-backend.up.railway.app/furnitureData", apd)
       .then(async (res) => {
         console.log(res);
         // setFurniture(res);
